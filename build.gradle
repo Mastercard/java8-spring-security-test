@@ -1,0 +1,12 @@
+group 'com.mastercard.security'
+version '1.0.0.RELEASE'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    compile('org.springframework.security:spring-security-web:4.1.0.RELEASE')
+    compile('org.springframework.security:spring-security-test:4.1.0.RELEASE')
+    compile('junit:junit:4.12')
+}
